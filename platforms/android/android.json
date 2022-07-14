@@ -1,0 +1,39 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "res/xml/config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"apiData\"><param name=\"android-package\" value=\"avshek.apiData.apiData\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "avshek.apiData": {
+      "PACKAGE_NAME": "com.avshek.javaApi"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "avshek.apiData.apiData",
+      "file": "plugins/avshek.apiData/www/apiData.js",
+      "pluginId": "avshek.apiData",
+      "clobbers": [
+        "cordova.plugins.apiData"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "avshek.apiData": "1.0.0"
+  }
+}

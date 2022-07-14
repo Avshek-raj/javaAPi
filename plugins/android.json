@@ -1,0 +1,15 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "avshek.apiData": {
+      "PACKAGE_NAME": "com.avshek.javaApi"
+    }
+  },
+  "dependent_plugins": {}
+}
